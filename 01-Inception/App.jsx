@@ -30,7 +30,7 @@ const parent = React.createElement("div" , { id : "parent" },
                 )
                 );
 
-console.log(heading);   // please see me , I ma not html element , i am JS Object aka React Element
+console.log(parent);   // please see me , I ma not html element , i am JS Object aka React Element
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(parent)
