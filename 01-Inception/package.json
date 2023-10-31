@@ -2,7 +2,7 @@
   "name": "01-inception",
   "version": "1.0.0",
   "description": "this is namaste react by ska10",
-  "main": "App.jsx",
+  "main": "App.js",
   "scripts": {
     "test": "jest"
   },
