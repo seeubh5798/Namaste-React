@@ -1,0 +1,29 @@
+{
+  "name": "01-inception",
+  "version": "1.0.0",
+  "description": "this is namaste react by ska10",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seeubh5798/Namaste-React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Shubham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seeubh5798/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/seeubh5798/Namaste-React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

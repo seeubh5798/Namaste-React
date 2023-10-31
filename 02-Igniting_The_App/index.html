@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+    <link rel="stylesheet" href="./index.css" />
+</head>
+<body>
+    <h3> I will be rendered before React</h3>
+    <div id="root">
+        <h3> Mujhe render krke bhaga dega react because I am inside root</h3>
+    </div>
 
+    <div id="notroot">
+        <h3> I will be rendered because I am not react root LOL</h3>
+    </div>
+
+    <h3> I will be rendered after React code executes </h3>
+
+    <!-- <script>
+       const heading = document.createElement('h1');
+       heading.innerHTML = "Hello React from plane JS";
+       document.getElementById('root').appendChild(heading);
+
+    </script> -->
+
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+
+    <script type="module" src="./App.js"></script>
+        <!-- // browser scripts -->
+
+         
+        
+    </script>
+</body>
+</html>
