@@ -36,6 +36,23 @@ const parent = React.createElement("div" , { id : "parent" },
 console.log(parent);   // please see me , I ma not html element , i am JS Object aka React Element
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(parent)
+
 
 // because of this complexity for simple html rendering , JSX came to the humanity.
+
+
+const jsx = <h2> I am rendered from JSX</h2>   // JSX is also a react element, not HTML - remember it
+
+
+const HeadingComponent = ()=>{
+   return (
+      <div>
+         <h2> JSX from function component {jsx}</h2>
+
+
+         <span> {parent}</span>
+      </div>
+   )
+}
+
+root.render(<HeadingComponent />)   
